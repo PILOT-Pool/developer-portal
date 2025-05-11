@@ -268,7 +268,7 @@ echo "Using blst version: ${BLST_VERSION}"
 
 Download and install `blst` so that `cardano-base` can pick it up (assuming that `pkg-config` is installed):
 ```bash
-: ${BLST_VERSION:='v0.3.11'}
+: ${BLST_VERSION:='v0.3.14'}
 git clone --depth 1 --branch ${BLST_VERSION} https://github.com/supranational/blst
 cd blst
 ./build.sh
